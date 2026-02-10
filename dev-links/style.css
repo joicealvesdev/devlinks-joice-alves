@@ -27,8 +27,8 @@ body {
 
 .light {
     --text-color: black;
-    --bg-url:url(assets/bg-mobile-light.jpg)
-    -stroke-color: rgba(0 , 0, 0, 0.5);
+    --bg-url:url(assets/bg-mobile-light.jpg);
+    --stroke-color: rgba(0 , 0, 0, 0.5);
     --surface-color:rgba(0,0,0, 0.5);
 }
 
@@ -73,6 +73,7 @@ body * {
 .btn {
       background: rgba(112, 38, 127, 0.16);
       color: var(--text-color)
+      
           
      
     }
