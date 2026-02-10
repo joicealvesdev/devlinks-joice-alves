@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+
+
+
+body {
+    background-image: url(assets/bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+#container {
+  
+   width: 360px;
+   height: 712px;
+   margin: 56px auto 0px;
+   padding: 0 24px;
+   
+
+}
+
+#profile img {
+     
+    width: 50%;
+    height: 50%;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+body * {
+    font-family: 'Zalando Sans Expanded', sans-serif;
+    font-size: 20px;
+    color: white;
+   text-align: center;
+    
+
+}
+
+.profile-p{
+     font-family: 'Zalando Sans Expanded', sans-serif;
+     color: rgb(254, 254, 254);
+    font-size: 20px;
+}
+
+
+.btn {
+      background: rgba(112, 38, 127, 0.16);
+      color: white
+          
+     
+    }
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}     
+
+ul li a{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    box-shadow: 1px 2px black;
+    background: rgb(255, 255,  255, 0.1);
+    border: 1px solid rgba( 255, 255, 255, 0.5);
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.5s;
+}
+
+ul li a:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+
+/*social links */ 
+
+#social-links {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding: 32px 0;
+    font-size: 40px;
+}
