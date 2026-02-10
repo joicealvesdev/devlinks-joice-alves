@@ -1,10 +1,16 @@
 @charset "utf-8";
 
 
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
 
 
 body {
-    background-image: url(assets/bg-desktop.jpg);
+   background: var(--bg-url);
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -13,11 +19,17 @@ body {
 
 :root {
     --text-color: white;
+    --bg-url: url(assets/bg-mobile.jpg)
+    --stroke-color: rgba(0 , 0, 0, 0.5);
+    --surface-color: rgba(255,255,255, 0.5);
 }
 
 
 .light {
     --text-color: black;
+    --bg-url:url(assets/bg-mobile-light.jpg)
+    -stroke-color: rgba(0 , 0, 0, 0.5);
+    --surface-color:rgba(0,0,0, 0.5);
 }
 
 
@@ -25,6 +37,7 @@ body {
    width: 360px;
    margin: 56px auto 0px;
    padding: 0 24px;
+   text-align: center;
    
 
 }
@@ -41,7 +54,7 @@ body {
 body * {
     font-family: 'Zalando Sans Expanded', sans-serif;
     font-size: 20px;
-  
+    padding:  8px 0;
     text-align: center;
     color: var(--text-color)
  
@@ -51,8 +64,9 @@ body * {
 
 .profile-p{
      font-family: 'Zalando Sans Expanded', sans-serif;
-     color: rgb(254, 254, 254);
-    font-size: 20px;
+     font-size: 20px;
+     margin-top: 8px;
+
 }
 
 
@@ -68,6 +82,8 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 16px;
+
+  
     
 }     
 
@@ -77,7 +93,7 @@ ul li a{
     align-items: center;
     padding: 16px 24px;
     box-shadow: 1px 2px black;
-    background: rgb(255, 255,  255, 0.1);
+    background: var(--surface-color);
     border: 1px solid rgba( 255, 255, 255, 0.5);
     border-radius: 8px;
     backdrop-filter: blur(4px);
