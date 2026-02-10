@@ -24,6 +24,7 @@ body {
     --surface-color: rgba(255,255,255, 0.5);
    --surface-color-hover: rgba(0, 0, 0, 0.2);
    --highlight-color: rgba(255, 255, 255, 0.2); 
+   --switch-bg-url: url(assets/moonstars.svg)
 }
 
 
@@ -34,6 +35,7 @@ body {
     --surface-color:rgba(0,0,0, 0.5);
      --surface-color-hover: rgba(0, 0, 0, 0.2);
      --highlight-color: rgba(0, 0, 0, 0.1); 
+     --switch-bg-url: url(assets/sun.svg)
 }
 
 
@@ -45,15 +47,91 @@ body {
    
 
 }
-
+/*Profile*/
 #profile img {
-     
+    
     width: 50%;
     height: 50%;
    
     justify-content: center;
     align-items: center;
 }
+
+.profile-p{
+     font-family: 'Zalando Sans Expanded', sans-serif;
+     font-size: 20px;
+     margin-top: 8px;
+
+}
+
+
+
+/*switch*/
+
+/*#switch button {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  border: 0;
+  border-radius: 50%;
+  background-image: var(--switch-bg-url)
+  background-repeat: no-repeat;
+  text-align: center;
+  
+} */
+
+
+#switch {
+  position: relative;
+  width: 64px;
+  margin: 16px auto 32px;
+}
+
+#switch button {
+  width: 32px;
+  height: 32px;
+  background: white var(--switch-bg-url) no-repeat center;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  transition: left 0.3s;
+  z-index: 1;
+}
+
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  background-color: rgb(101, 77, 101);
+  
+  border: 1px solid var(--stroke-color);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 9999px;
+}
+
+.light #switch button {
+  left: 32px;
+ background-color: #fff;
+}
+
+#switch button {
+  transition: left 0.3s ease, transform 0.2s;
+}
+
+#switch button:hover {
+  transform: translateY(-50%) scale(1.05);
+}
+
+
+
+
+
 
 body * {
     font-family: 'Zalando Sans Expanded', sans-serif;
@@ -66,21 +144,17 @@ body * {
 
 }
 
-.profile-p{
-     font-family: 'Zalando Sans Expanded', sans-serif;
-     font-size: 20px;
-     margin-top: 8px;
 
-}
 
 
 .btn {
-      background: rgba(112, 38, 127, 0.16);
-      color: var(--text-color)
+      background: rgba(115, 44, 130, 0.16);
+      color: var(--text-color);
+      
       
           
      
-    }
+    } 
 
 ul {
     list-style: none;
