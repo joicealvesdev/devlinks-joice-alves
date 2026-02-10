@@ -16,6 +16,10 @@ body {
 }
 
 
+.light {
+    --text-color: black;
+}
+
 
 #container {
    width: 360px;
@@ -29,7 +33,7 @@ body {
      
     width: 50%;
     height: 50%;
-    padding: 24px;
+   
     justify-content: center;
     align-items: center;
 }
@@ -54,7 +58,7 @@ body * {
 
 .btn {
       background: rgba(112, 38, 127, 0.16);
-      color: white
+      color: var(--text-color)
           
      
     }
@@ -78,7 +82,7 @@ ul li a{
     border-radius: 8px;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-
+    
     text-decoration: none;
     font-weight: bold;
     transition: background 0.5s;
@@ -86,6 +90,7 @@ ul li a{
 
 ul li a:hover {
     background: rgba(255, 255, 255, 0.05);
+    border: 1.5px solid var(--text-color);
 }
 
 
@@ -93,7 +98,7 @@ ul li a:hover {
 
 #social-links {
     display: flex;
-    
+    color: white;
     justify-content: center;
     padding: 24px 0;
     font-size: 40px;
