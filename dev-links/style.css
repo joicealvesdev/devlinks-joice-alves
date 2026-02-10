@@ -11,6 +11,12 @@ body {
 }
 
 
+:root {
+    --text-color: white;
+}
+
+
+
 #container {
   
    width: 360px;
@@ -35,6 +41,7 @@ body * {
     font-size: 20px;
     color: white;
    text-align: center;
+   
     
 
 }
