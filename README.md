@@ -14,11 +14,13 @@ This project focuses on a clean, modern UI with a **Light/Dark theme toggle**, a
 
 #### Dark Mode
 
-![Dark Mode Preview](./assets/preview-dark.png)
+<img width="1837" height="880" alt="{7FAC7513-16D2-4434-9E45-F549B0F2C2E0}" src="https://github.com/user-attachments/assets/3ace39ea-936f-47f7-90ec-b400525b7372" />
+
 
 #### Light Mode
 
-![Uploading {31E79EE1-8C27-4E02-83AB-52E3D2249B2E}.png…]()
+<img width="1836" height="877" alt="{FBB6F076-4593-4B46-91EB-CBE9D2953519}" src="https://github.com/user-attachments/assets/c57e313a-e6ca-4f7b-92cb-4aac08fc109b" />
+
 
 
 > 💡 Tip: Add your screenshots inside the `assets` folder and update the file names if needed.
