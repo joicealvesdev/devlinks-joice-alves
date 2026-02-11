@@ -18,7 +18,8 @@ This project focuses on a clean, modern UI with a **Light/Dark theme toggle**, a
 
 #### Light Mode
 
-![Light Mode Preview](./assets/preview-light.png)
+![Uploading {31E79EE1-8C27-4E02-83AB-52E3D2249B2E}.png…]()
+
 
 > 💡 Tip: Add your screenshots inside the `assets` folder and update the file names if needed.
 
