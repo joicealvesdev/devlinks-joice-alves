@@ -40,6 +40,9 @@ This project focuses on a clean, modern UI with a **Light/Dark theme toggle**, a
 * **CSS3** – Styling, variables, animations, and responsiveness
 * **JavaScript (Vanilla)** – DOM manipulation and theme switching
 * **Ionicons** – Icons
+* **Git** – Version control  
+* **GitHub** – Remote repository hosting and collaboration  
+* **Figma** – UI/UX design and prototyping
 
 ---
 
